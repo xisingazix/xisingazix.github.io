@@ -1,4 +1,4 @@
-# HTML and CSS Styling: A Step-by-Step Guide
+# HTML and CSS Styling Guide
 
 **Objective:**
 Create a portfolio page by:
