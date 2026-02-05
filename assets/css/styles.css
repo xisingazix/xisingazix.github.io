@@ -59,7 +59,8 @@ nav {
     /*vertical alignment*/
     padding: 0.9375rem 1.25rem;
     /*15px by 20px*/
-    background-color: var(--white);
+    background-color: #c1caca;
+    opacity: 0.8;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
     /*subtle shadow*/
     position: sticky;
@@ -188,7 +189,11 @@ nav a:hover {
     /*300px*/
 }
 
-.about-text {
+
+.about-text{
+    border-radius:6px;
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.1);
+    padding:1.5rem;
     flex: 2;
 }
 
@@ -466,12 +471,15 @@ footer {
         transform: translateX(calc(-50vw + 50%));
     }
 }
-
+/*less than 31.25rem*/
 @media (max-width:31.25rem) {
     .icon-grid{
         height: 13rem;
     }
+
 }
+
+
 
 /*Done -add media query for contact-links a*/
 /*Responsive styles for webpage */
@@ -524,7 +532,9 @@ footer {
     .icon-grid{
         height: 7rem;
     }
-
+    .about-image{
+        display: none;
+    }
 }
 
 
