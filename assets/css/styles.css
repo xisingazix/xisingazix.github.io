@@ -471,13 +471,6 @@ footer {
         transform: translateX(calc(-50vw + 50%));
     }
 }
-/*less than 31.25rem*/
-@media (max-width:31.25rem) {
-    .icon-grid{
-        height: 13rem;
-    }
-
-}
 
 
 
@@ -536,7 +529,13 @@ footer {
         display: none;
     }
 }
+/*less than 31.25rem*/
+@media (max-width:31.25rem) {
+    .icon-grid{
+        height: 12rem;
+    }
 
+}
 
 /*apply the style here if the screen size is <= 900px (16px x 56.25rem) tablet*/
 @media (max-width: 56.25rem) {
